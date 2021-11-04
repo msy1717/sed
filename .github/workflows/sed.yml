@@ -10,12 +10,4 @@ jobs:
         with:
           find: "firebot"
           replace: "beastx"
-      - name: Pull All Updates
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: 'SeD Replacer'
-          commit_options: '--no-verify'
-          repository: .
-          commit_user_name: Chrisdroid1
-          commit_user_email: userbotni7@gmail.com
-          commit_author: Chrisdroid1 <userbotni7@gmail.com>
+    
