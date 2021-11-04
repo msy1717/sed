@@ -10,5 +10,6 @@ jobs:
         with:
           find: "firebot"
           replace: "beastx"
+          token: ${{ secrets.GH_TOKEN }}
           regex: false
     
